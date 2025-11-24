@@ -39,6 +39,7 @@
             font-weight: 600;
             margin-bottom: 2rem;
             border: 1px solid #e0a800;
+            font-style: italic; /* Style to match the original Streamlit text */
         }
 
         h1 { font-size: 2.25rem; font-weight: 700; margin-bottom: 1rem; margin-top: 0; }
@@ -94,10 +95,9 @@
 
         /* Layout */
         .st-columns { display: flex; gap: 1rem; }
-        /* When images are removed, the bio section (col-2) should take full width */
-        .col-2 { flex: 1; } 
-        .col-1 { display: none; } /* Hide the image column */
-        .col-4 { flex: 4; }
+        .col-2 { flex: 1; }
+        .col-1 { display: none; }
+        .col-4 { flex: 1; } /* Remains flex: 1 for consistency, effectively full width now */
         
         img { max-width: 100%; height: auto; border-radius: 0.5rem; display: block; }
 
@@ -111,19 +111,17 @@
 
 <div class="st-container">
     
-    <!-- WIP Banner -->
-    <div class="progress-banner">
-        🚧 This project is currently under progress 🚧
+    <!-- WIP Banner --><div class="progress-banner">
+        🚧 𝑻𝒉𝒊𝒔 𝒑𝒓𝒐𝒋𝒆𝒄𝒕 𝒊𝒔 𝒄𝒖𝒓𝒓𝒆𝒏𝒕𝒍𝒚 𝒖𝒏𝒅𝒆𝒓 𝒑𝒓𝒐𝒈𝒓𝒆𝒔𝒔 🚧
     </div>
 
-    <h1>𝘼𝘽𝙊𝙐𝙏 𝙐𝙎</h1>
+    <h1>𝐀𝐁𝐎𝐔𝐓 𝐔𝐒</h1>
 
     <p>𝑻𝒉𝒆𝒓𝒆 𝒘𝒂𝒔 𝒂𝒏 𝒊𝒅𝒆𝒂, 𝒕𝒐 𝒎𝒂𝒌𝒆 𝒂𝒏 𝒂𝒑𝒑 𝒖𝒔𝒆𝒇𝒖𝒍 𝒕𝒐 𝒔𝒕𝒖𝒅𝒆𝒏𝒕𝒔 𝒕𝒉𝒂𝒕 𝒘𝒂𝒔𝒏'𝒕 𝒓𝒆𝒍𝒊𝒂𝒏𝒕 𝒐𝒏 𝒄𝒐𝒂𝒄𝒉𝒊𝒏𝒈 𝒊𝒏𝒔𝒕𝒊𝒕𝒖𝒕𝒆𝒔 𝒐𝒓 𝒕𝒉𝒆 𝒘𝒉𝒊𝒎𝒔 𝒐𝒇 𝒂𝒅𝒗𝒆𝒓𝒕𝒊𝒔𝒆𝒓𝒔 𝒂𝒏𝒅 𝒑𝒓𝒐𝒇𝒊𝒕. 𝑨𝒍𝒍 𝒐𝒇 𝒖𝒔 𝒉𝒂𝒗𝒆 𝒔𝒑𝒆𝒏𝒕 𝒂𝒈𝒆𝒔 𝒍𝒐𝒐𝒌𝒊𝒏𝒈 𝒇𝒐𝒓 𝒂 𝒓𝒆𝒍𝒊𝒂𝒃𝒍𝒆 𝒑𝒓𝒐𝒗𝒊𝒅𝒆𝒓 𝒐𝒇 𝒒𝒖𝒆𝒔𝒕𝒊𝒐𝒏𝒔 𝒕𝒉𝒂𝒕 𝒅𝒊𝒅𝒏'𝒕 𝒑𝒖𝒕 𝒖𝒔 𝒃𝒆𝒉𝒊𝒏𝒅 𝒂 𝒑𝒂𝒚𝒘𝒂𝒍𝒍 𝒐𝒓 𝒐𝒕𝒉𝒆𝒓 𝒔𝒖𝒄𝒉 𝒐𝒃𝒔𝒕𝒂𝒄𝒍𝒆𝒔 𝒕𝒐 𝒂𝒄𝒕𝒖𝒂𝒍𝒍𝒚 𝒈𝒆𝒕𝒕𝒊𝒏𝒈 𝒒𝒖𝒆𝒔𝒕𝒊𝒐𝒏𝒔 - 𝒍𝒊𝒌𝒆 𝒍𝒐𝒈𝒊𝒏𝒔 𝒕𝒉𝒂𝒕 𝒐𝒑𝒆𝒏 𝒖𝒔 𝒖𝒑 𝒕𝒐 𝒔𝒑𝒂𝒎, 𝒔𝒂𝒚.  𝑬𝒏𝒕𝒆𝒓 𝑪𝒆𝒓𝒕𝒊𝒇𝒂𝒄𝒕 - 𝒂 𝒑𝒓𝒐𝒋𝒆𝒄𝒕 𝒔𝒕𝒂𝒓𝒕𝒆𝒅 𝒃𝒚 𝒕𝒉𝒓𝒆𝒆 𝒔𝒕𝒖𝒅𝒆𝒏𝒕𝒔, 𝒘𝒉𝒐'𝒅 𝒇𝒓𝒂𝒏𝒌𝒍𝒚 𝒉𝒂𝒅 𝒆𝒏𝒐𝒖𝒈𝒉 𝒘𝒊𝒕𝒉 𝒕𝒉𝒆 𝒔𝒕𝒂𝒕𝒆 𝒐𝒇 𝒇𝒓𝒆𝒆 𝑱𝑬𝑬 𝒒𝒖𝒆𝒔𝒕𝒊𝒐𝒏𝒔 𝒐𝒏𝒍𝒊𝒏𝒆 - 𝒐𝒖𝒓 𝒂𝒎𝒃𝒊𝒕𝒊𝒐𝒏𝒔 𝒉𝒂𝒑𝒑𝒆𝒏𝒆𝒅 𝒕𝒐 𝒄𝒐𝒊𝒏𝒄𝒊𝒅𝒆 𝒘𝒊𝒕𝒉 𝒐𝒖𝒓 𝒏𝒆𝒆𝒅 𝒕𝒐 𝒄𝒐𝒎𝒆 𝒖𝒑 𝒘𝒊𝒕𝒉 𝒂 𝒑𝒓𝒐𝒋𝒆𝒄𝒕 𝒇𝒐𝒓 𝒕𝒘𝒆𝒍𝒇𝒕𝒉 𝒈𝒓𝒂𝒅𝒆. 𝑺𝒐 𝒊𝒕 𝒊𝒔 𝒕𝒉𝒂𝒕 𝒕𝒉𝒆 𝒕𝒉𝒓𝒆𝒆 𝒐𝒇 𝒖𝒔 𝒅𝒆𝒄𝒊𝒅𝒆𝒅 𝒐𝒏 𝒕𝒉𝒆 𝒂𝒑𝒑 𝒚𝒐𝒖'𝒓𝒆 𝒉𝒐𝒑𝒆𝒇𝒖𝒍𝒍𝒚 𝒆𝒏𝒋𝒐𝒚𝒊𝒏𝒈 𝒓𝒊𝒈𝒉𝒕 𝒏𝒐𝒘.
 
 𝑪𝒆𝒓𝒕𝒊𝒇𝒂𝒄𝒕 𝒊𝒔 𝒂 𝒗𝒆𝒓𝒔𝒂𝒕𝒊𝒍𝒆 𝒔𝒕𝒖𝒅𝒚 𝒂𝒏𝒅 𝒑𝒓𝒆𝒑𝒂𝒓𝒂𝒕𝒊𝒐𝒏 𝒂𝒑𝒑𝒍𝒊𝒄𝒂𝒕𝒊𝒐𝒏 𝒅𝒆𝒔𝒊𝒈𝒏𝒆𝒅 𝒕𝒐 𝒉𝒆𝒍𝒑 𝒖𝒔𝒆𝒓𝒔 𝒂𝒄𝒉𝒊𝒆𝒗𝒆 𝒕𝒉𝒆𝒊𝒓 𝒍𝒆𝒂𝒓𝒏𝒊𝒏𝒈 𝒈𝒐𝒂𝒍𝒔 𝒊𝒏 𝒂 𝒔𝒕𝒓𝒖𝒄𝒕𝒖𝒓𝒆𝒅 𝒎𝒂𝒏𝒏𝒆𝒓. 𝑻𝒉𝒆 𝒂𝒑𝒑 𝒇𝒆𝒂𝒕𝒖𝒓𝒆𝒔 𝒂 𝒄𝒐𝒎𝒑𝒓𝒆𝒉𝒆𝒏𝒔𝒊𝒗𝒆 𝒃𝒂𝒏𝒌 𝒐𝒇 𝒒𝒖𝒆𝒔𝒕𝒊𝒐𝒏𝒔 𝒂𝒄𝒓𝒐𝒔𝒔 𝒅𝒊𝒇𝒇𝒆𝒓𝒆𝒏𝒕 𝒔𝒖𝒃𝒋𝒆𝒄𝒕𝒔, 𝒂𝒍𝒐𝒏𝒈 𝒘𝒊𝒕𝒉 𝒔𝒐𝒍𝒖𝒕𝒊𝒐𝒏𝒔 𝒕𝒐 𝒆𝒏𝒔𝒖𝒓𝒆 𝒖𝒔𝒆𝒓𝒔 𝒖𝒏𝒅𝒆𝒓𝒔𝒕𝒂𝒏𝒅 𝒕𝒉𝒆 𝒎𝒂𝒕𝒆𝒓𝒊𝒂𝒍 𝒕𝒉𝒐𝒓𝒐𝒖𝒈𝒉𝒍𝒚. 𝑨 𝒌𝒆𝒚 𝒇𝒆𝒂𝒕𝒖𝒓𝒆 𝒊𝒔 𝒕𝒐 𝒎𝒂𝒌𝒆 𝒂 𝒔𝒄𝒉𝒆𝒅𝒖𝒍𝒆, 𝒘𝒉𝒊𝒄𝒉 𝒉𝒆𝒍𝒑𝒔 𝒔𝒕𝒖𝒅𝒆𝒏𝒕𝒔 𝒐𝒓𝒈𝒂𝒏𝒊𝒛𝒆 𝒕𝒉𝒆𝒊𝒓 𝒔𝒕𝒖𝒅𝒚 𝒕𝒊𝒎𝒆 𝒆𝒇𝒇𝒊𝒄𝒊𝒆𝒏𝒕𝒍𝒚. 𝑭𝒖𝒓𝒕𝒉𝒆𝒓𝒎𝒐𝒓𝒆, 𝒃𝒚 𝒔𝒆𝒍𝒆𝒄𝒕𝒊𝒏𝒈 𝒕𝒉𝒆𝒊𝒓 𝒇𝒊𝒆𝒍𝒅 𝒐𝒇 𝒊𝒏𝒕𝒆𝒓𝒆𝒔𝒕 𝒖𝒔𝒊𝒏𝒈 𝒕𝒉𝒆 𝑪𝒆𝒓𝒕𝒊𝒇𝒊𝒏𝒅 𝒇𝒆𝒂𝒕𝒖𝒓𝒆, 𝒖𝒔𝒆𝒓𝒔 𝒓𝒆𝒄𝒆𝒊𝒗𝒆 𝒔𝒖𝒈𝒈𝒆𝒔𝒕𝒊𝒐𝒏𝒔 𝒇𝒐𝒓 𝒓𝒆𝒍𝒆𝒗𝒂𝒏𝒕 𝒄𝒐𝒖𝒓𝒔𝒆𝒔.</p>
 
-    <!-- YouTube Miniplayer -->
-    <div class="yt-container">
+    <!-- YouTube Miniplayer --><div class="yt-container">
         <span class="yt-label">▶ Watch our Intro: An App That's Actually Kinda Useful</span>
         <div class="video-wrapper">
             <iframe src="https://www.youtube.com/embed/1NHembPNTEk" title="Certifact Intro" allowfullscreen></iframe>
@@ -141,43 +139,34 @@
             <button class="tab-button" onclick="openTab(event, 'tab3')">ɸ</button>
         </div>
 
-        <!-- Tab 1: Arav -->
-        <div id="tab1" class="tab-content active">
+        <!-- Tab 1: Arav --><div id="tab1" class="tab-content active">
             <h3>Arav Resty</h3>
             <div class="st-columns">
-                <!-- col-2 takes full width now -->
                 <div class="col-2">
                     <p>𝖳𝗁𝖾 𝗌𝗈𝗎𝗅 𝗈𝖿 𝖢𝖾𝗋𝗍𝗂𝖿𝖺𝖼𝗍, 𝗁𝖾 𝗉𝗎𝗌𝗁𝖾𝗌 𝖿𝗈𝗋 𝗇𝖾𝗐 𝗂𝖽𝖾𝖺𝗌 𝖺𝗇𝖽 𝖾𝗑𝖾𝖼𝗎𝗍𝖾𝗌 𝗍𝗁𝖾𝗆 𝗆𝗈𝗌𝗍 𝖾𝗅𝖾𝗀𝖺𝗇𝗍𝗅𝗒. 𝖧𝖾'𝗌 𝖺𝗇 𝖾𝗑𝖼𝖾𝗅𝗅𝖾𝗇𝗍 𝖼𝗈𝖽𝖾𝗋 𝗐𝗁𝗈 𝗅𝖾𝖺𝗋𝗇𝗌 𝗈𝗇 𝗍𝗁𝖾 𝖿𝗅𝗒 - 𝗁𝖺𝗏𝗂𝗇𝗀 𝖼𝗈𝗆𝖾 𝗎𝗉 𝗐𝗂𝗍𝗁 𝗆𝖺𝗇𝗒 𝗈𝖿 𝗍𝗁𝖾 𝗆𝖾𝖼𝗁𝖺𝗇𝗂𝖼𝗌 𝗈𝖿 𝖢𝖾𝗋𝗍𝗂𝖿𝖺𝖼𝗍 - 𝗂𝗇𝖼𝗅𝗎𝖽𝗂𝗇𝗀 𝗍𝗁𝖾 𝖼𝖺𝗅𝖾𝗇𝖽𝖺𝗋.
 
 𝖠𝗋𝖺𝗏 𝗌𝖾𝗋𝗏𝖾𝗌 𝖺𝗅𝗌𝗈 𝖺𝗌 𝗈𝗎𝗋 𝖼𝗁𝗂𝖾𝖿 𝗆𝖺𝗋𝗄𝖾𝗍𝖾𝗋. 𝖠𝗅𝗅 𝗊𝗎𝖾𝗌𝗍𝗂𝗈𝗇𝗌 𝗐𝖾𝗋𝖾 𝖿𝗈𝗎𝗇𝖽 𝖻𝗒 𝖠𝗋𝖺𝗏, 𝖺𝗇𝖽 𝖾𝗑𝗍𝗋𝖺𝖼𝗍𝖾𝖽 𝖻𝗒 𝗁𝗂𝗆 𝗍𝗈𝗈 - 𝗌𝗈 𝗐𝖺𝗌 𝗍𝗁𝖾 𝗌𝖾𝗍𝗎𝗉 𝗈𝖿 𝗍𝗁𝖾 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 𝖺𝗇𝖽 𝗍𝖺𝖻𝗅𝖾𝗌.</p>
                 </div>
-                <!-- Image column removed -->
             </div>
         </div>
 
-        <!-- Tab 2: Shreekar -->
-        <div id="tab2" class="tab-content">
+        <!-- Tab 2: Shreekar --><div id="tab2" class="tab-content">
             <h3>Shreekar Karthik</h3>
             <div class="st-columns">
-                <!-- col-2 takes full width now -->
                 <div class="col-2">
-                    <p>𝖳𝗁𝖾 𝗁𝖾𝖺𝗋𝗍 𝗈𝖿 𝖢𝖾𝗋𝗍𝗂𝖿𝖺𝖼𝗍, 𝗁𝖾 𝗂𝗌 𝖺 𝗍𝖺𝗅𝖾𝗇𝗍𝖾𝖽 𝗂𝗇𝖽𝗂𝗏𝗂𝖽𝗎𝖺𝗅 𝗐𝗁𝗈 𝗂𝗌 𝖼𝖺𝗉𝖺𝖻𝗅𝖾 𝗈𝖿 𝖼𝗈𝗆𝗂𝗇𝗀 𝗎𝗉 𝗐𝗂𝗍𝗁 𝖻𝗋𝗂𝗅𝗅𝗂𝖺𝗇𝗍 𝗆𝖾𝗍𝗁𝗈𝖽𝗌 𝗈𝖿 𝖾𝗑𝖾𝖼𝗎𝗍𝗂𝗈𝗇 𝖾𝗏𝖾𝗇 𝗐𝗁𝖾𝗇 𝖺 𝗋𝗈𝖺𝖽𝖻𝗅𝗈𝖼𝗄 𝗂𝗌 𝖾𝗇𝖼𝗈𝗎𝗇𝗍𝖾𝗋𝖾𝖽 𝖺𝗇𝖽 𝖾𝗏𝖾𝗋𝗒𝗍𝗁𝗂𝗇𝗀 𝗌𝖾𝖾𝗆𝗌 𝖽𝖾𝖺𝖽. 𝖧𝖾'𝗌 𝗍𝗁𝖾 𝗋𝖾𝖺𝗌𝗈𝗇 𝖢𝖾𝗋𝗍𝗂𝖿𝖺𝖼𝗍 𝗌𝗍𝖺𝗒𝗌 𝖺𝗅𝗂𝗏.
+                    <p>𝖳𝗁𝖾 𝗁𝖾𝖺𝗋𝗍 𝗈𝖿 𝖢𝖾𝗋𝗍𝗂𝖿𝖺𝖼𝗍, 𝗁𝖾 𝗂𝗌 𝖺 𝗍𝖺𝗅𝖾𝗇𝗍𝖾𝖽 𝗂𝗇𝖽𝗂𝗏𝗂𝖽𝗎𝖺𝗅 𝗐𝗁𝗈 𝗂𝗌 𝖼𝖺𝗉𝖺𝖻𝗅 𝗈𝖿 𝖼𝗈𝗆𝗂𝗇𝗀 𝗎𝗉 𝗐𝗂𝗍𝗁 𝖻𝗋𝗂𝗅𝗅𝗂𝖺𝗇𝗍 𝗆𝖾𝗍𝗁𝗈𝖽𝗌 𝗈𝖿 𝖾𝗑𝖾𝖼𝗎𝗍𝗂𝗈𝗇 𝖾𝗏𝖾𝗇 𝗐𝗁𝖾𝗇 𝖺 𝗋𝗈𝖺𝖽𝖻𝗅𝗈𝖼𝗄 𝗂𝗌 𝖾𝗇𝖼𝗈𝗎𝗇𝗍𝖾𝗋𝖾𝖽 𝖺𝗇𝖽 𝖾𝗏𝖾𝗋𝗒𝗍𝗁𝗂𝗇𝗀 𝗌𝖾𝖾𝗆𝗌 𝖽𝖾𝖺𝖽. 𝖧𝖾'𝗌 𝗍𝗁𝖾 𝗋𝖾𝖺𝗌𝗈𝗇 𝖢𝖾𝗋𝗍𝗂𝖿𝖺𝖼𝗍 𝗌𝗍𝖺𝗒𝗌 𝖺𝗅𝗂𝗏.
 
 𝖲𝗁𝗋𝖾𝖾𝗄𝖺𝗋 𝗂𝗌 𝗍𝗁𝖾 𝗋𝖾𝖺𝗌𝗈𝗇 𝖾𝗏𝖾𝗋𝗒 𝗌𝗂𝗇𝗀𝗅𝖾 𝗊𝗎𝖾𝗌𝗍𝗂𝗈𝗇 𝗈𝗇 𝗍𝗁𝗂𝗌 𝗉𝗅𝖺𝗍𝖿𝗈𝗋𝗆 𝗁𝖺𝗌 𝗂𝗍𝗌 𝗉𝗅𝖺𝖼𝖾 𝗂𝗇 𝗍𝗁𝖾 𝖽𝖺𝗍𝖺𝖻𝖺𝗌𝖾 𝖺𝗇𝖽 𝗂𝗌 𝖽𝗂𝗌𝗉𝗅𝖺𝗒𝖾𝖽 𝗍𝗈 𝗍𝗁𝖾 𝗎𝗌𝖾𝗋 𝖼𝗈𝗋𝗋𝖾𝖼𝗍𝗅𝗒. 𝖳𝗁𝖾 𝗋𝗈𝗅𝖾 𝗈𝖿 𝗍𝗁𝖾 𝖺𝖽𝗆𝗂𝗇𝗌 𝗍𝗈 𝗆𝗈𝖽𝗂𝖿𝗒 𝖺𝗇𝖽 𝖼𝗋𝖾𝖺𝗍𝖾 𝗇𝖾𝗐 𝖿𝖾𝖺𝗍𝗎𝗋𝖾𝗌 𝗂𝗌 𝖺𝗅𝗅 𝖺𝗇 𝖾𝖿𝖿𝖾𝖼𝗍 𝗈𝖿 𝗁𝗂𝗌 𝖾𝗇𝖼𝗈𝗎𝗋𝖺𝗀𝖾𝗆𝖾𝗇𝗍 𝖺𝗇𝖽 𝖼𝗋𝖾𝖺𝗍𝗂𝗏𝗂𝗍𝗒.</p>
                 </div>
-                <!-- Image column removed -->
             </div>
         </div>
 
-        <!-- Tab 3: Arpith -->
-        <div id="tab3" class="tab-content">
+        <!-- Tab 3: Arpith --><div id="tab3" class="tab-content">
             <h3>Arpith Sivaramakrishnan</h3>
             <div class="st-columns">
-                <!-- col-2 takes full width now -->
                 <div class="col-2">
                     <p>𝖳𝗁𝖾 𝖻𝗋𝖺𝗂𝗇 𝗈𝖿 𝖢𝖾𝗋𝗍𝗂𝖿𝖺𝖼𝗍, 𝖠𝗋𝗉𝗂𝗍𝗁 𝖨𝖲 𝗍𝗁𝖾 𝖦𝖴𝖨. 𝖧𝖾'𝗌 𝖻𝖾𝖾𝗇 𝗍𝗁𝖾 𝗌𝗉𝗂𝗇𝖾 𝗈𝗏𝖾𝗋 𝗐𝗁𝗂𝖼𝗁 𝖾𝗏𝖾𝗋𝗒 𝗈𝗍𝗁𝖾𝗋 𝗉𝗂𝖾𝖼𝖾 𝗈𝖿 𝖼𝗈𝖽𝖾 𝗂𝗌 𝖻𝗎𝗂𝗅𝗍, 𝖺𝗇𝖽 𝗂𝗌 𝗈𝗎𝗋 𝗆𝗈𝗌𝗍 𝖺𝖼𝖼𝗈𝗆𝗉𝗅𝗂𝗌𝗁𝖾𝖽 𝖼𝗈𝖽𝖾𝗋 𝖻𝗒 𝖿𝖺𝗋. 𝖧𝖾'𝗌 𝗁𝖺𝖽 𝗍𝗁𝖾 𝗆𝗈𝗌𝗍 𝖼𝗈𝗇𝗌𝗂𝗌𝗍𝖾𝗇𝗍𝗅𝗒 𝗎𝗌𝖺𝖻𝗅𝖾 𝗂𝖽𝖾𝖺𝗌, 𝖺𝗇𝖽 𝖾𝗌𝗌𝖾𝗇𝗍𝗂𝖺𝗅𝗅𝗒 𝖻𝗎𝗂𝗅𝗍 𝖢𝖾𝗋𝗍𝗂𝖿𝖺𝖼𝗍 𝖿𝗋𝗈𝗆 𝗍𝗁𝖾 𝗀𝗋𝗈𝗎𝗇𝖽 𝗎𝗉. 𝖧𝖾'𝗌 𝗍𝗁𝖾 𝗈𝗇𝖾 𝗐𝗂𝗍𝗁 𝗍𝗁𝖾 𝗉𝗅𝖺𝗇𝗌 𝖺𝗇𝖽 𝗉𝗋𝖺𝖼𝗍𝗂𝖼𝖺𝗅𝗂𝗍𝗂𝖾𝗌 𝗈𝗇 𝗍𝗁𝖾 𝗉𝗋𝗈𝗀𝗋𝖺𝗆𝗆𝖾𝗋𝗌' 𝗌𝗂𝖽𝖾.</p>
                 </div>
-                <!-- Image column removed -->
             </div>
         </div>
     </div>
@@ -186,15 +175,11 @@
 
     <p>𝑨𝒔 𝑻𝒆𝒂𝒎 𝑪𝒆𝒓𝒕𝒊𝒇𝒂𝒄𝒕, 𝒐𝒖𝒓 𝒎𝒂𝒊𝒏 𝒐𝒃𝒋𝒆𝒄𝒕𝒊𝒗𝒆 𝒊𝒔 𝒕𝒐 𝒑𝒓𝒐𝒗𝒊𝒅𝒆 𝒂 𝒔𝒎𝒐𝒐𝒕𝒉 𝒂𝒏𝒅 𝒑𝒍𝒆𝒂𝒔𝒂𝒏𝒕 𝒆𝒙𝒑𝒆𝒓𝒊𝒆𝒏𝒄𝒆 𝒇𝒐𝒓 𝒚𝒐𝒖 𝒖𝒔𝒆𝒓𝒔. 𝑺𝒐, 𝒊𝒇 𝒚𝒐𝒖 𝒘𝒐𝒖𝒍𝒅 𝒍𝒊𝒌𝒆 𝒕𝒐 𝒓𝒆𝒂𝒄𝒉 𝒐𝒖𝒕 𝒕𝒐 𝒖𝒔 𝒂𝒏𝒅 𝒑𝒓𝒐𝒗𝒊𝒅𝒆 𝒔𝒖𝒈𝒈𝒆𝒔𝒕𝒊𝒐𝒏𝒔, 𝒐𝒓 𝒄𝒐𝒏𝒄𝒆𝒓𝒏𝒔 𝒓𝒆𝒈𝒂𝒓𝒅𝒊𝒏𝒈 𝒕𝒉𝒆 𝒔𝒐𝒇𝒕𝒘𝒂𝒓𝒆, 𝒚𝒐𝒖 𝒄𝒂𝒏 𝒄𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔 𝒗𝒊𝒂 𝒐𝒖𝒓 𝒆𝒎𝒂𝒊𝒍⇒ 'trulycertifact@gmail.com'</p>
 
-    <div class="st-columns">
-        <div class="col-4">
-            <p>𝑾𝒉𝒊𝒍𝒆 𝒚𝒐𝒖'𝒓𝒆 𝒂𝒕 𝒊𝒕, 𝒑𝒍𝒆𝒂𝒔𝒆 𝒅𝒐 𝒉𝒂𝒗𝒆 𝒂 𝒓𝒆𝒂𝒅 𝒐𝒇 𝒐𝒖𝒓 𝑻𝒆𝒓𝒎𝒔 𝑶𝒇 𝑺𝒆𝒓𝒗𝒊𝒄𝒆 𝒃𝒚 𝒔𝒄𝒂𝒏𝒏𝒊𝒏𝒈 𝒕𝒉𝒊𝒔 𝑸𝑹 𝑪𝒐𝒅𝒆</p>
-        </div>
-        <!-- QR code image removed -->
-        <div class="col-1">
-            <!-- This column is now display: none via CSS -->
-        </div>
-    </div>
+    <!-- Updated TOS link section, replacing the QR code text and image --><p>𝑾𝒉𝒊𝒍𝒆 𝒚𝒐𝒖'𝒓𝒆 𝒂𝒕 𝒊𝒕, 𝒑𝒍𝒆𝒂𝒔𝒆 𝒅𝒐 𝒉𝒂𝒗𝒆 𝒂 𝒓𝒆𝒂𝒅 𝒐𝒇 𝒐𝒖𝒓 𝑻𝒆𝒓𝒎𝒔 𝑶𝒇 𝑺𝒆𝒓𝒗𝒊𝒄𝒆 𝒃𝒚 𝒄𝒍𝒊𝒄𝒌𝒊𝒏𝒈 
+        <a href="https://certifacted-op.github.io/certifact-TOS/" target="_blank" style="color: blue; text-decoration: underline;">
+            𝒕𝒉𝒊𝒔 𝒍𝒊𝒏𝒌
+        </a>.
+    </p>
 
 </div>
 
@@ -219,4 +204,3 @@
 </script>
 </body>
 </html>
-
